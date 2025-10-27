@@ -26,15 +26,9 @@ const games = [
     genre: "Action / Adventure",
     platform: "PC, PS4, Xbox One",
     cover: "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
-  }  
-  {
-    name: "Red Dead Redemption",
-    year: 2024,
-    genre: "Action / Adventure",
-    platform: "PC, PS4, Xbox One",
-    cover: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Red_Dead_Redemption.jpg/250px-Red_Dead_Redemption.jpg"
   }
 ];
+
 const container = document.getElementById("game-container");
 
 games.forEach(game => {
